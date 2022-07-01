@@ -12,15 +12,6 @@ Array.from(button).forEach((button) => {
             string = ""
             document.querySelector('input').value = string
         }
-        else if(e.target.innerHTML == 'M+'){
-            string = string
-            string = eval(string)
-            document.querySelector('input').value = string
-        }
-        else if(e.target.innerHTML == '%'){
-            string = eval(string)
-            document.querySelector('input').value = string
-        }
         else{
             console.log(e.target)
             string = string + e.currentTarget.innerHTML
